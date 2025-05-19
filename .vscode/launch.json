@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:vapor-postgresql-example}",
+            "name": "Debug VaporPostgresqlExample",
+            "program": "${workspaceFolder:vapor-postgresql-example}/.build/debug/VaporPostgresqlExample",
+            "preLaunchTask": "swift: Build Debug VaporPostgresqlExample"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:vapor-postgresql-example}",
+            "name": "Release VaporPostgresqlExample",
+            "program": "${workspaceFolder:vapor-postgresql-example}/.build/release/VaporPostgresqlExample",
+            "preLaunchTask": "swift: Build Release VaporPostgresqlExample"
+        }
+    ]
+}
